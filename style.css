@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url(back.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+  margin-left: 40px;
+}
+nav a {
+  margin-right: 45px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 26px;
+  opacity: 2;
+  /* color: rgb(225, 65, 237); */
+  color: #fff;
+  padding: 7px 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: rgb(202, 80, 202);
+}
+#home {
+  background-color: #fff;
+  text-transform: capitalize;
+  color: rgb(202, 80, 202);
+}
+nav a:hover {
+  background-color: #fff;
+  color: rgb(202, 80, 202);
+}
+.container-head {
+  font-family: "Orbitron", sans-serif;
+  top: 40%;
+  left: 32%;
+  transform: translate(-50%, -32%);
+  position: absolute;
+}
+.container-head h1 {
+  font-size: 80px;
+  opacity: 2;
+  text-transform: capitalize;
+  color: rgb(235, 84, 207);
+}
+.container-head h2 {
+  font-size: 80px;
+  opacity: 2;
+  text-transform: capitalize;
+  color: transparent;
+  -webkit-text-stroke: 5px rgb(206, 99, 233);
+}
+.container-head h1 span {
+  color: rgb(206, 99, 233);
+  font-size: 100px;
+}
+.button {
+  top: 84%;
+  left: 32%;
+  transform: translate(-84%, -32%);
+  position: absolute;
+}
+.button a {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 12px 32px;
+  border-radius: 40px;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: rgb(235, 84, 207);
+  color: white;
+}
+.button a:hover {
+  background-color: #fff;
+  color: rgb(235, 84, 207);
+}
